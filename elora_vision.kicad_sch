@@ -1,0 +1,55 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b865212e-ce15-46bb-ba8d-3d96d4433f64)
+
+  (paper "A4")
+
+  (title_block
+    (title "Elora Vision Project")
+    (date "2023-06-10")
+    (rev "1")
+    (company "Parnia Technologies")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 20.32) (size 93.98 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d4942ead-b963-427e-8943-14dddbcdce37)
+    (property "Sheetname" "MCU" (at 19.05 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 19.05 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "elora_vision"
+        (path "/b865212e-ce15-46bb-ba8d-3d96d4433f64" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 97.79) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dff3c487-b70f-4bd5-8c60-e350e6da15a1)
+    (property "Sheetname" "LoRa" (at 19.05 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "lora.kicad_sch" (at 19.05 135.2046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "elora_vision"
+        (path "/b865212e-ce15-46bb-ba8d-3d96d4433f64" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
